@@ -1,4 +1,4 @@
-package com.day3;
+package javaDay3;
 
 //Java Day 3 Exercise 2,4,5
 public class InheritenceExample2 extends Dog {
