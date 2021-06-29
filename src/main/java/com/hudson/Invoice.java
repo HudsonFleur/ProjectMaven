@@ -1,4 +1,5 @@
 package com.hudson;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -14,15 +15,12 @@ public class Invoice {
 	private String description;
 	private int quantity;
 	private double price;
-	
-	public double getInvoiceAmount()
-	{
-		if(quantity < 0 )
-		{
+
+	public double getInvoiceAmount() {
+		if (quantity < 0) {
 			quantity = 0;
 		}
-		if(price < 0)
-		{
+		if (price < 0) {
 			price = 0;
 		}
 		return price * quantity;

@@ -1,4 +1,5 @@
 package com.hudson;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -13,8 +14,7 @@ public class Date {
 	private int day;
 	private int year;
 
-	public void displayDate()
-	{
-		System.out.println(month + "/" + day+ "/" +  year);
+	public void displayDate() {
+		System.out.println(month + "/" + day + "/" + year);
 	}
 }

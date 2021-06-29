@@ -1,10 +1,10 @@
-package com.Day3;
+package com.day3;
 
 //Java Day 3 Exercise 3
 public class C {
 
 	public static void main(String[] args) {
-		B classB = new B( 3, "This is a subclass");
+		B classB = new B(3, "This is a subclass");
 		classB.printClassName();
 		System.out.println("The int passed into class B is " + classB.getInt());
 	}

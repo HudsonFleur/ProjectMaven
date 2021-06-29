@@ -1,4 +1,4 @@
-package com.Day3;
+package com.day3;
 
 //Java Day 3 Exercise 3
 public class A {

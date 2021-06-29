@@ -1,4 +1,5 @@
 package com.hudson;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,14 +13,12 @@ public class Person {
 	private String name;
 	private int age;
 	private double shoeSize;
-	
-	private void walking()
-	{
+
+	private void walking() {
 		System.out.println(name + " age " + age + " with shoe size " + shoeSize + " is walking");
 	}
-	
-	public void startWalking() 
-	{
+
+	public void startWalking() {
 		walking();
 	}
 
