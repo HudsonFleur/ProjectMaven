@@ -6,6 +6,19 @@ import java.util.Scanner;
 public class Exercise2 {
 
 	public boolean checkPalindrome(String str) {
+		
+		// Java way of doing it
+		/*
+		StringBuilder testStr = new StringBuilder(str);
+		testStr = testStr.reverse();
+		String revString = testStr.toString();
+
+		if (str.equals(revString)) {
+			return true;
+		} else {
+			return false;
+		}*/
+		
 		char[] arr = str.toCharArray();
 		int length = arr.length;
 		boolean isTrue = false;
